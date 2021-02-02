@@ -77,6 +77,7 @@ $disc_list = [
 ];
 
 // var_dump($disc_list);
+
  ?>
 
  <!DOCTYPE html>
@@ -98,15 +99,15 @@ $disc_list = [
           </div>
         </nav>
         <main>
-          <div class="container">
-            <div class="card"><?php foreach ($disc_list as $key) { ?>
+          <div class="container"><?php foreach ($disc_list as $key) { ?>
+            <div class="card">
               <img src="<?php echo $key["cover"]; ?>" alt="">
               <h2> <?php echo $key["title"]; ?></h2>
               <h3> <?php echo $key["author"]; ?></h3>
               <h4> <?php echo $key["year"]; ?></h4>
-
-            <?php } ?>
             </div>
+          <?php } ?>
+
           </div>
         </main>
      </div>

@@ -1,0 +1,40 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #1E2D3B;
+  font-family: 'Lato', sans-serif;
+}
+
+/* *********************** navbar********************* */
+.navbar_site{
+  width: 100%;
+  height: 40px;
+  background-color: black;
+}
+
+.navbar_site img {
+  width: 40px;
+  margin-left: 200px;
+}
+/* ***********************main section********************** */
+.container{
+  width: 60%;
+  height: 300px;
+  margin: 100px auto;
+  background-color: white;
+}
+.card{
+  background-color: black;
+  padding: 30px;
+  text-align: center;
+}
+.card img{
+  width: 200px;
+}
+
+h2, h3, h4{
+  color: white;
+}

@@ -6,8 +6,9 @@ let app = new Vue({
   },
 
   mounted() {
-    axios.get("https://cors-anywhere.herokuapp.com/database.php")
+    axios.get("../database/api_database.php")
     .then(response => {
+      console.log(response);
       let array = response.data;
       this.newList = array
 

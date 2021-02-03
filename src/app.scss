@@ -13,12 +13,12 @@ body{
   width: 100%;
   height: 40px;
   background-color: black;
+   img {
+    width: 40px;
+    margin-left: 200px;
+  }
 }
 
-.navbar_site img {
-  width: 40px;
-  margin-left: 200px;
-}
 /* ***********************main section********************** */
 .container{
   width: 60%;

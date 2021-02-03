@@ -74,4 +74,6 @@ $disc_list = [
 ];
 
 // var_dump($disc_list);
+header("content-type: application/json");
+echo json_encode($disc_list);
 ?>

@@ -28,25 +28,24 @@ body{
   justify-content: space-around;
   flex-wrap: wrap;
 
-}
-.card{
-  background-color: black;
-  padding: 30px;
-  margin-bottom: 20px;
-  text-align: center;
-  width: 250px;
-  height: 350px;
-}
-.card img{
-  width: 200px;
-}
+  .card{
+    background-color: black;
+    padding: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 250px;
+    height: 350px;
+  }
+  .card img{
+    width: 200px;
+  }
+  h2 {
+    color: white;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+  }
 
-h2 {
-  color: white;
-  font-size: 1.3rem;
-  margin-bottom: 20px;
-}
-
-h3, h4{
-  color: grey;
+  h3, h4{
+    color: grey;
+  }
 }

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>php-ajax-dischi</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../dist/css/app.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
   </head>

@@ -8,7 +8,7 @@ let app = new Vue({
   mounted() {
     axios.get("../database/api_database.php")
     .then(response => {
-      console.log(response);
+      // console.log(response);
       let array = response.data;
       this.newList = array
 
